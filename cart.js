@@ -40,7 +40,7 @@ const total = cart.reduce((currentTotal, cart) => {
 }, 0)
 console.log(total);
 
-// const summedPrice = cart.reduce(/* CALLBACK HERE */)
+// const summedPrice = cart.reduce(currentTotal, cart)
 
 
 //////////////////PROBLEM 2////////////////////
@@ -60,7 +60,10 @@ console.log(total);
 
 //CODE HERE
 
-
+function calcFinalPrice (cartTotal, couponValue, tax) {
+    return total, - 0.047, - .2;
+}
+calcFinalPrice(- 0.047 - .2);
 
 //////////////////PROBLEM 3////////////////////
 /*  

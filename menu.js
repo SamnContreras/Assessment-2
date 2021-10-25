@@ -33,7 +33,7 @@
 //CODE HERE
 
 const pizza = {
-    name: "Sam",
+    name: "Meat lovers",
     price: 20,
     category: "Entree",
     popularity: 10,
@@ -89,8 +89,8 @@ const pizza = {
 
 //CODE HERE
 
-const { popularity } = pizza;
-console.log(popularity);
+// const { popularity } = pizza;
+// console.log(popularity);
 
 //////////////////PROBLEM 3////////////////////
 /* 
@@ -106,7 +106,7 @@ console.log(popularity);
 
 //CODE HERE
 
-
+let foodArr = ["Jon", 15, "Appetizer", 8, 6, ]
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -122,6 +122,12 @@ console.log(popularity);
 
 //CODE HERE
 
+const filteredFood = foodArr.filter((element) => {
+    if(element.tags.includes("gluten free")) {
+      return element;
+    }
+  });
+  
 // const filteredFood = foodArr.filter(/* CALLBACK HERE */)
 
 
@@ -167,6 +173,16 @@ console.log(popularity);
 
 //CODE HERE
 
+const filterByProperty = (property, number, type) => {
+    const filteredFood = foodArr.filter((element) => {
+      if(type === "above"){
+        return element[property] >= number;
+      } else if (type === "below"){
+        return element[property] <= number;
+      }
+    })
+    return filteredFood;
+  }
 
 /*
     Invoke the `filterByProperty` function passing
@@ -176,3 +192,4 @@ console.log(popularity);
 */
 
 //CODE HERE
+
