@@ -106,7 +106,7 @@ const pizza = {
 
 //CODE HERE
 
-let foodArr = ["Jon", 15, "Appetizer", 8, 6, ]
+let foodArr = ["pep", 15, "Appetizer", 8, 6, ]
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -128,8 +128,7 @@ const filteredFood = foodArr.filter((element) => {
     }
   });
   
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
-
+// const filteredFood = foodArr.filter()
 
 
 //////////////////PROBLEM 5////////////////////
@@ -193,3 +192,4 @@ const filterByProperty = (property, number, type) => {
 
 //CODE HERE
 
+filterByProperty()

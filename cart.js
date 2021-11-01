@@ -61,9 +61,9 @@ console.log(total);
 //CODE HERE
 
 function calcFinalPrice (cartTotal, couponValue, tax) {
-    return total, - 0.047, - .2;
+    return total * 0.047;
 }
-calcFinalPrice(- 0.047 - .2);
+
 
 //////////////////PROBLEM 3////////////////////
 /*  
@@ -87,7 +87,11 @@ calcFinalPrice(- 0.047 - .2);
 
 /*
     TEXT ANSWER HERE
-
+    object properties (5 guys order)
+    burger
+    fry
+    shake
+    drink
 */
 
 /*
@@ -96,3 +100,10 @@ calcFinalPrice(- 0.047 - .2);
 */
 
 //CODE HERE
+
+let customerObject = {
+    burger: "Baconcheeseburger",
+    fry: "Small fries",
+    shake: "Oreo shake",
+    drink: "Small rootbeer"
+}
